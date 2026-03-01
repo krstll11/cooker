@@ -1,0 +1,94 @@
+<resources>
+    <string name="recipes_title">Recipes</string>
+    <string name="app_name">Cooking Assistant</string>
+    <string name="category_all">All</string>
+    <string name="category_breakfast">Breakfast</string>
+    <string name="category_lunch">Lunch</string>
+    <string name="category_dinner">Dinner</string>
+    <string name="cuisine_all">All</string>
+    <string name="cuisine_english">English</string>
+    <string name="cuisine_russian">Russian</string>
+    <string name="cuisine_sichuan">Sichuan</string>
+    <string name="change_language">Change Language</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+
+
+    <string name="recipe_1_name">English Breakfast</string>
+    <string name="recipe_2_name">Borscht</string>
+    <string name="recipe_3_name">Sichuan Stir-Fried Potatoes</string>
+
+
+    <string-array name="recipe_1_ingredients">
+        <item>Eggs - 2 pcs</item>
+        <item>Sausages - 2 pcs</item>
+        <item>Bacon - 50 g</item>
+        <item>Tomatoes - 1 pc</item>
+        <item>Mushrooms - 3 pcs</item>
+        <item>Baked beans in tomato sauce - 50 g</item>
+        <item>Toast - 2 slices</item>
+    </string-array>
+
+
+    <string-array name="recipe_1_steps">
+        <item>Fry the sausages and bacon in a pan until golden brown.</item>
+        <item>In the same pan, fry the sliced mushrooms and tomato halves.</item>
+        <item>Toast the bread in a toaster or in a dry pan.</item>
+        <item>In a separate pan, fry the eggs sunny-side up.</item>
+        <item>Heat the baked beans in their sauce.</item>
+        <item>Serve everything together on one plate.</item>
+    </string-array>
+
+
+    <string-array name="recipe_2_ingredients">
+        <item>Beef on the bone - 500 g</item>
+        <item>Beetroot - 2 pcs</item>
+        <item>White cabbage - 300 g</item>
+        <item>Potatoes - 3 pcs</item>
+        <item>Carrot - 1 pc</item>
+        <item>Onion - 1 pc</item>
+        <item>Tomato paste - 2 tbsp</item>
+        <item>Garlic - 2 cloves</item>
+        <item>Salt, pepper, bay leaf - to taste</item>
+        <item>Sour cream and fresh herbs for serving</item>
+    </string-array>
+
+
+    <string-array name="recipe_2_steps">
+        <item>Make meat broth: cover the meat with cold water, bring to a boil, skim off the foam, and simmer over low heat for 1.5 hours.</item>
+        <item>Cut the beetroot into strips, grate the carrot coarsely, finely chop the onion. Sauté the vegetables in a pan with tomato paste.</item>
+        <item>Remove the meat from the broth, separate from the bone, and cut into pieces. Add diced potatoes and shredded cabbage to the broth, cook for 15 minutes.</item>
+        <item>Add the sautéed vegetables and meat, season with salt, pepper, and bay leaf. Cook for another 10 minutes.</item>
+        <item>Finally, add the minced garlic, let it steep covered for 20 minutes.</item>
+        <item>Serve with sour cream and fresh herbs.</item>
+    </string-array>
+
+
+    <string-array name="recipe_3_ingredients">
+        <item>Large red-skinned potatoes - 2 pcs</item>
+        <item>Cooking oil - 2 tbsp</item>
+        <item>Sichuan peppercorns - 1 tbsp</item>
+        <item>Ginger - 2 thin slices (minced)</item>
+        <item>Garlic - 2 cloves (minced)</item>
+        <item>Dried red chilies - 3-6 pcs (seeded and chopped)</item>
+        <item>Long red or green hot pepper - 1 pc (seeded and julienned)</item>
+        <item>Light soy sauce - 1 tsp</item>
+        <item>Sugar - ½ tsp</item>
+        <item>White vinegar - 1 tsp</item>
+        <item>Sesame oil - ½ tsp</item>
+        <item>Chicken stock (or water) - 1 tbsp</item>
+        <item>Salt - to taste</item>
+        <item>Scallion - 1 stalk (chopped)</item>
+    </string-array>
+
+
+    <string-array name="recipe_3_steps">
+        <item>Peel the potatoes and julienne them very thinly. Rinse in fresh cold water several times until the water runs clear. Drain and set aside, but do not let them sit longer than 20 minutes to prevent browning.</item>
+        <item>Heat oil in a wok over medium heat, add the Sichuan peppercorns (make sure they don’t burn). When the peppercorns are fragrant, turn off the heat and remove all peppercorns from the oil. Discard the used peppercorns.</item>
+        <item>Turn the heat back to medium, add the ginger, garlic, and chopped dried red chilies to the oil. Cook for a minute.</item>
+        <item>Add the potatoes and julienned fresh hot pepper. Turn the heat to high and stir-fry for 30 seconds.</item>
+        <item>Add the soy sauce, sugar, white vinegar, sesame oil, chicken stock (or water), and salt. Stir-fry everything for a minute, then cover for 45 seconds.</item>
+        <item>Remove the lid, add the chopped scallion, stir, and serve immediately.</item>
+    </string-array>
+</resources>
+

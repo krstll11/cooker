@@ -1,0 +1,93 @@
+<resources>
+    <string name="recipes_title">菜谱</string>
+    <string name="app_name">烹饪助手</string>
+    <string name="category_all">全部</string>
+    <string name="category_breakfast">早餐</string>
+    <string name="category_lunch">午餐</string>
+    <string name="category_dinner">晚餐</string>
+    <string name="cuisine_all">全部</string>
+    <string name="cuisine_english">英式</string>
+    <string name="cuisine_russian">俄式</string>
+    <string name="cuisine_sichuan">川式</string>
+    <string name="change_language">切换语言</string>
+    <string name="ingredients">食材</string>
+    <string name="steps">步骤</string>
+
+
+    <string name="recipe_1_name">英式早餐</string>
+    <string name="recipe_2_name">罗宋汤</string>
+    <string name="recipe_3_name">四川炒土豆丝</string>
+
+
+    <string-array name="recipe_1_ingredients">
+        <item>鸡蛋 - 2个</item>
+        <item>香肠 - 2根</item>
+        <item>培根 - 50克</item>
+        <item>番茄 - 1个</item>
+        <item>口蘑 - 3个</item>
+        <item>茄汁焗豆 - 50克</item>
+        <item>吐司 - 2片</item>
+    </string-array>
+
+
+    <string-array name="recipe_1_steps">
+        <item>将香肠和培根在平底锅中煎至金黄色。</item>
+        <item>在同一锅中煎切片的口蘑和番茄块。</item>
+        <item>用烤面包机或干锅烤面包片。</item>
+        <item>在另一锅中单面煎鸡蛋。</item>
+        <item>加热茄汁焗豆。</item>
+        <item>将所有食物摆在同一盘中享用。</item>
+    </string-array>
+
+
+    <string-array name="recipe_2_ingredients">
+        <item>带骨牛肉 - 500克</item>
+        <item>甜菜根 - 2个</item>
+        <item>卷心菜 - 300克</item>
+        <item>土豆 - 3个</item>
+        <item>胡萝卜 - 1根</item>
+        <item>洋葱 - 1个</item>
+        <item>番茄膏 - 2汤匙</item>
+        <item>大蒜 - 2瓣</item>
+        <item>盐、胡椒、香叶 - 适量</item>
+        <item>酸奶油和新鲜香草（装饰用）</item>
+    </string-array>
+
+
+    <string-array name="recipe_2_steps">
+        <item>制作肉汤：将肉用冷水浸泡，煮沸后撇去浮沫，小火炖1.5小时。</item>
+        <item>将甜菜根切丝，胡萝卜擦成粗丝，洋葱切碎。在锅中用番茄膏炒香蔬菜。</item>
+        <item>将肉从汤中取出，去骨切块。在汤中加入切块的土豆和卷心菜丝，煮15分钟。</item>
+        <item>加入炒好的蔬菜和肉，加盐、胡椒和香叶调味，再煮10分钟。</item>
+        <item>最后加入蒜末，盖上盖子焖20分钟。</item>
+        <item>上桌时配酸奶油和新鲜香草。</item>
+    </string-array>
+
+
+    <string-array name="recipe_3_ingredients">
+        <item>大红皮土豆 - 2个</item>
+        <item>食用油 - 2汤匙</item>
+        <item>花椒 - 1汤匙</item>
+        <item>生姜 - 2薄片（切末）</item>
+        <item>大蒜 - 2瓣（切末）</item>
+        <item>干辣椒 - 3-6个（去籽切碎）</item>
+        <item>长红或绿尖椒 - 1个（去籽切丝）</item>
+        <item>生抽 - 1茶匙</item>
+        <item>糖 - ½茶匙</item>
+        <item>白醋 - 1茶匙</item>
+        <item>香油 - ½茶匙</item>
+        <item>鸡汤（或水） - 1汤匙</item>
+        <item>盐 - 适量</item>
+        <item>青葱 - 1根（切碎）</item>
+    </string-array>
+
+
+    <string-array name="recipe_3_steps">
+        <item>土豆去皮，切成极细的丝。用冷水反复冲洗，直到水变清。沥干备用，但不要超过20分钟以防变色。</item>
+        <item>锅中倒油，中火加热，放入花椒（注意不要炸糊）。花椒出香味后关火，捞出花椒弃用，油留在锅里。</item>
+        <item>重新开中火，加入姜末、蒜末和切碎的干辣椒，炒1分钟。</item>
+        <item>加入土豆丝和新鲜尖椒丝，转大火快炒30秒。</item>
+        <item>加入生抽、糖、白醋、香油、鸡汤（或水）和盐，翻炒1分钟，然后盖盖焖45秒。</item>
+        <item>开盖，加入葱花，翻炒均匀后立即出锅。</item>
+    </string-array>
+</resources>
