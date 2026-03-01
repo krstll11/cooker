@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="categories_array">
+        <item>@string/category_all</item>
+        <item>@string/category_breakfast</item>
+        <item>@string/category_lunch</item>
+        <item>@string/category_dinner</item>
+    </string-array>
+    <string-array name="cuisines_array">
+        <item>@string/cuisine_all</item>
+        <item>@string/cuisine_english</item>
+        <item>@string/cuisine_russian</item>
+        <item>@string/cuisine_sichuan</item>
+    </string-array>
+</resources>
