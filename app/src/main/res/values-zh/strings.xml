@@ -12,7 +12,7 @@
     <string name="change_language">切换语言</string>
     <string name="ingredients">食材</string>
     <string name="steps">步骤</string>
-
+    <string name="speak_recipe">朗读菜谱</string>
 
     <string name="recipe_1_name">英式早餐</string>
     <string name="recipe_2_name">罗宋汤</string>

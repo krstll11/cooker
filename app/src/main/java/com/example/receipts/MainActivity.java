@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Recipe> allRecipes;
     private List<Recipe> filteredRecipes;
 
+    private MediaPlayer startPlayer;
     private final String[] categoryKeys = {"all", "breakfast", "lunch", "dinner"};
     private final String[] cuisineKeys = {"all", "english", "russian", "sichuan"};
 
@@ -41,12 +43,25 @@ public class MainActivity extends AppCompatActivity {
 
         setAppLocale();
         setContentView(R.layout.activity_main);
+        startPlayer = MediaPlayer.create(this, R.raw.start_sound);
+        startPlayer.setOnCompletionListener(mp -> {
+            mp.release();
+        });
+        startPlayer.start();
 
         initViews();
         setupSpinners();
         loadRecipes();
         setupRecyclerView();
         setupLanguageButton();
+    }
+    @Override
+    protected void onDestroy() {
+        if (startPlayer != null) {
+            startPlayer.release();
+            startPlayer = null;
+        }
+        super.onDestroy();
     }
 
 

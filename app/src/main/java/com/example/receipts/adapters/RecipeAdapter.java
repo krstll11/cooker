@@ -2,6 +2,7 @@ package com.example.receipts.adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,12 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
         Recipe recipe = recipes.get(position);
         holder.textViewName.setText(recipe.getNameResId());
         holder.cardView.setOnClickListener(v -> {
+
+            MediaPlayer clickPlayer = MediaPlayer.create(context, R.raw.click_sound);
+            clickPlayer.setOnCompletionListener(MediaPlayer::release);
+            clickPlayer.start();
+
+
             Intent intent = new Intent(context, RecipeDetailActivity.class);
             intent.putExtra("recipe_id", recipe.getId());
             context.startActivity(intent);
