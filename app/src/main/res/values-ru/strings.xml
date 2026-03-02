@@ -12,7 +12,7 @@
     <string name="change_language">Сменить язык</string>
     <string name="ingredients">Ингредиенты</string>
     <string name="steps">Шаги</string>
-
+    <string name="speak_recipe">Озвучить рецепт</string>
 
     <string name="recipe_1_name">Английский завтрак</string>
     <string name="recipe_2_name">Борщ</string>
