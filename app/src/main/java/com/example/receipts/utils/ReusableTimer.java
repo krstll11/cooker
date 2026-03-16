@@ -38,7 +38,7 @@ public class ReusableTimer {
     }
 
     public void start() {
-        if (running) return; // защита: нельзя стартануть дважды без сброса
+        if (running) return;
 
         running = true;
         textView.setTextColor(defaultTextColor);
