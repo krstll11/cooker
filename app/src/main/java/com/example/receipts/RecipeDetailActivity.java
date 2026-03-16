@@ -40,9 +40,9 @@ public class RecipeDetailActivity extends AppCompatActivity {
     private long baconMillisLeft;
     private long borschtMillisLeft;
 
-    private final long EGGS_INITIAL = 8 * 60_000;      // 8 минут
-    private final long BACON_INITIAL = 10 * 60_000;    // 10 минут
-    private final long BORSCHT_INITIAL = 120 * 60_000; // 120 минут
+    private final long EGGS_INITIAL = 8 * 60_000;
+    private final long BACON_INITIAL = 10 * 60_000;
+    private final long BORSCHT_INITIAL = 120 * 60_000;
 
     private int defaultTimerColor;
 
