@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
         <TextView
             android:id="@+id/textViewDetailName"
             android:layout_width="0dp"
@@ -20,7 +19,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp"/>
-
 
         <TextView
             android:id="@+id/textViewIngredientsTitle"
@@ -33,7 +31,6 @@
             app:layout_constraintTop_toBottomOf="@id/textViewDetailName"
             android:layout_marginTop="16dp"/>
 
-
         <TextView
             android:id="@+id/textViewDetailIngredients"
             android:layout_width="0dp"
@@ -44,7 +41,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textViewIngredientsTitle"
             android:layout_marginTop="8dp"/>
-
 
         <TextView
             android:id="@+id/textViewStepsTitle"
@@ -57,7 +53,6 @@
             app:layout_constraintTop_toBottomOf="@id/textViewDetailIngredients"
             android:layout_marginTop="24dp"/>
 
-
         <TextView
             android:id="@+id/textViewDetailSteps"
             android:layout_width="0dp"
@@ -69,27 +64,169 @@
             app:layout_constraintTop_toBottomOf="@id/textViewStepsTitle"
             android:layout_marginTop="8dp"/>
 
-
-        <Button
-            android:id="@+id/btnSpeak"
+        <!-- Таймер яиц 8 минут -->
+        <TextView
+            android:id="@+id/timerEggsLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/speak_recipe"
+            android:text="Жарка яиц (8 мин):"
+            android:textSize="16sp"
             app:layout_constraintTop_toBottomOf="@id/textViewDetailSteps"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="16dp"/>
 
+        <TextView
+            android:id="@+id/timerEggsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/timerEggsLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
 
+        <Button
+            android:id="@+id/timerEggsStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Старт"
+            app:layout_constraintTop_toBottomOf="@id/timerEggsText"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/timerEggsPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пауза"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/timerEggsStart"
+            app:layout_constraintTop_toBottomOf="@id/timerEggsText" />
+
+        <Button
+            android:id="@+id/timerEggsReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сброс"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/timerEggsPause"
+            app:layout_constraintTop_toBottomOf="@id/timerEggsText" />
+
+        <!-- Таймер бекона 10 минут -->
+        <TextView
+            android:id="@+id/timerBaconLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Жарка бекона (10 мин):"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/timerEggsStart"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/timerBaconText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/timerBaconLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/timerBaconStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Старт"
+            app:layout_constraintTop_toBottomOf="@id/timerBaconText"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/timerBaconPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пауза"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/timerBaconStart"
+            app:layout_constraintTop_toBottomOf="@id/timerBaconText" />
+
+        <Button
+            android:id="@+id/timerBaconReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сброс"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/timerBaconPause"
+            app:layout_constraintTop_toBottomOf="@id/timerBaconText" />
+
+        <!-- Таймер борща 120 минут -->
+        <TextView
+            android:id="@+id/timerBorschtLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Борщ (120 мин):"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/timerBaconStart"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/timerBorschtText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120:00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/timerBorschtLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/timerBorschtStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Старт"
+            app:layout_constraintTop_toBottomOf="@id/timerBorschtText"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/timerBorschtPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пауза"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/timerBorschtStart"
+            app:layout_constraintTop_toBottomOf="@id/timerBorschtText" />
+
+        <Button
+            android:id="@+id/timerBorschtReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сброс"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/timerBorschtPause"
+            app:layout_constraintTop_toBottomOf="@id/timerBorschtText" />
+
+        <!-- Видео -->
         <VideoView
             android:id="@+id/videoView"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="200dp"
-            app:layout_constraintTop_toBottomOf="@id/btnSpeak"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/timerBorschtStart"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
